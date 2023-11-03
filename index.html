@@ -12,13 +12,17 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-image: url('your-background-image.jpg'); /* 设置背景图片的URL */
+            background-size: cover; /* 背景图片按比例缩放填充整个容器 */
+            background-position: center; /* 背景图片居中 */
+        }
+        h1, h2 {
+            color: #333;
         }
         h1 {
-            color: #333;
             font-size: 36px;
         }
         h2 {
-            color: #666;
             font-size: 24px;
         }
         .button {
@@ -33,12 +37,26 @@
         .button:hover {
             background-color: #0056b3;
         }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
     </style>
 </head>
 <body>
     <h1>狸猫跑团社</h1>
     <h2>TanukiTRPG</h2>
     <a href="#" class="button">了解更多</a>
+    <div class="footer">
+        <a href="#">社团简介</a>
+        <a href="#">社团文章</a>
+        <a href="#">社团模组</a>
+    </div>
 </body>
 </html>
-
