@@ -1,64 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>狸猫跑团社</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-image: url('your-background-image.jpg'); /* 设置背景图片的URL */
-            background-size: cover; /* 背景图片按比例缩放填充整个容器 */
-            background-position: center; /* 背景图片居中 */
-        }
-        h1, h2 {
-            color: #333;
-        }
-        h1 {
-            font-size: 36px;
-        }
-        h2 {
-            font-size: 24px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-        .footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            height: 10%;
-            width: 100%;
-        }
-        .footer a {
-            color: #007BFF;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>狸猫跑团社</h1>
-    <h2>TanukiTRPG</h2>
-    <a href="#" class="button">了解更多</a>
-    <div class="footer">
-        <a href="members.html">社团简介</a>
-        <a href="#">社团文章</a>
-        <a href="#">社团模组</a>
-    </div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>狸猫跑团社</title>
+		<style>
+		  .tanuki_banner {
+		     background-image: url('tanuki_banner.jpg');
+		     background-size: cover; /* 将背景图拉伸或缩小以填满整个元素 */
+		     background-repeat: no-repeat; /* 防止背景图重复显示 */
+		     background-attachment: fixed; /* 可选，使背景图在滚动时固定 */
+			 background-color: rgba(255, 0, 0, 0.2);
+		  }
+		  .work1 {
+		     background-image: url('work1.jpg');
+		     background-size: cover; /* 将背景图拉伸或缩小以填满整个元素 */
+		     background-repeat: no-repeat; /* 防止背景图重复显示 */
+			 background-color: rgba(255, 0, 0, 0.5);
+		  }
+		  .work2 {
+		     background-image: url('work2.png');
+		     background-size: cover; /* 将背景图拉伸或缩小以填满整个元素 */
+		     background-repeat: no-repeat; /* 防止背景图重复显示 */
+			 background-color: rgba(255, 0, 0, 0.5);
+		  }
+		</style>
+		<script src="js/jquery-3.7.1.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="p-3 text-bg-dark">
+		  <div class="container">
+		    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+		      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+		        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+		      </a>
+		
+		      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+		        <li><a href="#" class="nav-link px-2 text-white">社团主页</a></li>
+		        <li><a href="#" class="nav-link px-2 text-white">社团作品</a></li>
+		      </ul>
+		
+		    </div>
+		  </div>
+		</header>
+		
+		<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary tanuki_banner">
+		  <div class="col-md-6 p-lg-5 mx-auto my-5">
+		    <h1 class="display-3 fw-bold text-white">狸猫跑团社</h1>
+		    <h3 class="fw-normal mb-3 text-white">tanukiTRPG</h3>
+		    <div class="d-flex gap-3 justify-content-center lead fw-normal">
+		      <a class="icon-link text-white" href="#">
+		        了解更多
+		      </a>
+		    </div>
+		  </div>
+		  <div class="product-device shadow-sm d-none d-md-block"></div>
+		  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+		</div>
+		
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 vh-60">
+		  <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-6 work1">
+		    <div class="my-3 py-3">
+		      <h2 class="display-5">林中之鸟</h2>
+		      <p class="lead">猎人迷失在西雅图以西的深林里......</p>
+		    </div>
+			<div style="width: 80%; height: 300px"></div>
+		  </div>
+		  <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-6 work2">
+		    <div class="my-3 p-3">
+		      <h2 class="display-5">妒火中烧</h2>
+		      <p class="lead">奉命调查斯卡玛望远镜阵列的毁灭的真相......</p>
+			  <div style="width: 80%; height: 300px"></div>
+		    </div>
+		  </div>
+		</div>
+		
+		<footer class="container py-5">
+		  <div class="row">
+		    <div class="col-12 col-md">
+		      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+		      <small class="d-block mb-3 text-body-secondary">tanukitrpg</small>
+		    </div>
+		    <div class="col-6 col-md">
+		      <h5>其他内容</h5>
+		      <ul class="list-unstyled text-small">
+		        <li><a class="link-secondary text-decoration-none" href="#">行业新闻简讯</a></li>
+		        <li><a class="link-secondary text-decoration-none" href="#">狸猫社产品</a></li>
+		        <li><a class="link-secondary text-decoration-none" href="#">我们的团队</a></li>
+		      </ul>
+		    </div>
+		    <div class="col-6 col-md">
+		      <h5>邮箱</h5>
+		      <ul class="list-unstyled text-small">
+		        <li><a class="link-secondary text-decoration-none" >客户服务：tanukitrpgservice@outlook.com</a></li>
+		        <li><a class="link-secondary text-decoration-none" >加入我们：tanukitrpg@outlook.com</a></li>
+		        <li><a class="link-secondary text-decoration-none" >法务咨询：tanukitrpglaw@outlook.com</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</footer>
+		
+	</body>
 </html>
