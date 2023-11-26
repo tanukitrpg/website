@@ -15,13 +15,15 @@
 <div class="container mt-5">
     <h1 class="mb-4">调查研究</h1>
     <div class="list-group">
-        <!-- 使用循环遍历数组，创建博客文章列表 -->
-        <!-- 每个博客文章都是一个列表项，点击时跳转到相应链接 -->
-        <% blogPosts.forEach(post => { %>
-            <a href="<%= post.link %>" class="list-group-item list-group-item-action">
-                <%= post.title %>
-            </a>
-        <% }); %>
+	<script>
+            blogPosts.forEach(post => {
+                document.write(`
+                    <a href="${post.link}" class="list-group-item list-group-item-action">
+                        ${post.title}
+                    </a>
+                `);
+            });
+        </script>
     </div>
 </div>
 </body>
