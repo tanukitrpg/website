@@ -32,20 +32,11 @@
         </ul>
     </nav>
 </div>
+
+
 	
-<div class="container mt-5">
-    <h1 class="mb-4">调查研究</h1>
-    <div class="list-group">
 	<script>
-            blogPosts.forEach(post => {
-                document.write(`
-                    <a href="${post.link}" class="list-group-item list-group-item-action">
-                        ${post.title}
-                    </a>
-                `);
-            });
-		
-    const itemsPerPage = 10;
+    const itemsPerPage = 1;
     let currentPage = 1;
 
     function displayBlogPosts() {
@@ -92,7 +83,5 @@
     displayBlogPosts();
     updatePagination();
         </script>
-    </div>
-</div>
 </body>
 </html>
