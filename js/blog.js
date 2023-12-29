@@ -1,4 +1,6 @@
 const blogPosts = [
+    
+    { title: "桌面角色扮演游戏作为心理障碍治疗的辅助手段", link: "https://mp.weixin.qq.com/s/HlO4I9yn7shn_b9hDFMJzw" },
     { title: "角色扮演游戏的GNS理论与大模型", link: "https://mp.weixin.qq.com/s/n-aKgXiMRfBo8FkrxYbHKA" },
     { title: "跑团电影与戏剧疗法", link: "https://mp.weixin.qq.com/s/qBEwAiD4geYOFbLNawG0Dg" },
     { title: "文章导读：桌面角色扮演游戏（跑团）作为一种提高成人社会联系的治疗干预方法", link: "https://mp.weixin.qq.com/s?__biz=MzI5MDc4NzQ5MQ==&mid=2247483702&idx=1&sn=6577ed964f06b8770f814143c65cb4a6&chksm=ec1bd8fadb6c51ec6655972a57ab92b8c6ec42da9326de6f30a221e565bbe1ccb8396aa4d662&token=1663823005&lang=zh_CN#rd" },
