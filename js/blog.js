@@ -1,4 +1,5 @@
 const blogPosts = [
+    { title: "洛夫克拉夫特与文学中的超自然恐怖：前哥特时代", link: "https://mp.weixin.qq.com/s?__biz=MzI5MDc4NzQ5MQ==&mid=2247483781&idx=1&sn=ecfbd773875995f986e8e97320da1fe2&chksm=ec1bd849db6c515fbd6123e071be2d4e8dfe6958adb8fe1bea9f3e200344c9f2d40f18842bb1&token=2059687780&lang=zh_CN#rd" },
     { title: "跑团：在沉浸式角色扮演中获得心流体验", link: "https://mp.weixin.qq.com/s/UeLxc1MdAWGi5Q1O82F2Ew" },
     { title: "桌面角色扮演游戏作为心理障碍治疗的辅助手段", link: "https://mp.weixin.qq.com/s/HlO4I9yn7shn_b9hDFMJzw" },
     { title: "角色扮演游戏的GNS理论与大模型", link: "https://mp.weixin.qq.com/s/n-aKgXiMRfBo8FkrxYbHKA" },
