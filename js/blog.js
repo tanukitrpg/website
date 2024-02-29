@@ -1,4 +1,8 @@
 const blogPosts = [
+    
+    { title: "洛夫克拉夫特“克苏鲁神话”艺术风格探索（二）", link: "https://mp.weixin.qq.com/s/LJ5lXSV2DrTMXI6IDuU2Og" },
+    { title: "洛夫克拉夫特“克苏鲁神话”艺术风格探索（一）", link: "https://mp.weixin.qq.com/s/fDrB9xNn-XEAgIkrUk5xDg" },
+    { title: "跑团玩家调研：热情迸发，期待相遇", link: "https://mp.weixin.qq.com/s/Q1rTZUjEtG5HzVSt6o1MRQ" },
     { title: "洛夫克拉夫特与文学中的超自然恐怖：早期哥特小说", link: "https://mp.weixin.qq.com/s/0PnDyPQJlrwv0uvTVClckA" },
     { title: "洛夫克拉夫特与文学中的超自然恐怖：前哥特时代", link: "https://mp.weixin.qq.com/s?__biz=MzI5MDc4NzQ5MQ==&mid=2247483781&idx=1&sn=ecfbd773875995f986e8e97320da1fe2&chksm=ec1bd849db6c515fbd6123e071be2d4e8dfe6958adb8fe1bea9f3e200344c9f2d40f18842bb1&token=2059687780&lang=zh_CN#rd" },
     { title: "跑团：在沉浸式角色扮演中获得心流体验", link: "https://mp.weixin.qq.com/s/UeLxc1MdAWGi5Q1O82F2Ew" },
