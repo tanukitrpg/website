@@ -1,4 +1,5 @@
 const blogPosts = [
+    { title: "《妒火中烧》即将发行", link: "https://mp.weixin.qq.com/s/hg3vXTSddQpe1avnqwjkvA" },
     { title: "跑团玩家调研：热情迸发，期待相遇", link: "https://mp.weixin.qq.com/s/Q1rTZUjEtG5HzVSt6o1MRQ" },
     { title: "克学史话：克苏鲁神话在中国", link: "https://www.gcores.com/articles/142467" },
     { title: "年轻人的第一次跑团，不一定非要在《博德之门3》", link: "https://www.sohu.com/a/714948107_628730" },
