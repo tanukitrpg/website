@@ -1,5 +1,6 @@
 const blogPosts = [
-    
+    { title: "《妒火中烧》即将发行", link: "https://mp.weixin.qq.com/s/hg3vXTSddQpe1avnqwjkvA" },
+    { title: "《妒火中烧》玩家征集", link: "https://mp.weixin.qq.com/s/1Cord1H_bWQYdCeDsVz6JQ" },
     { title: "洛夫克拉夫特“克苏鲁神话”艺术风格探索（二）", link: "https://mp.weixin.qq.com/s/LJ5lXSV2DrTMXI6IDuU2Og" },
     { title: "洛夫克拉夫特“克苏鲁神话”艺术风格探索（一）", link: "https://mp.weixin.qq.com/s/fDrB9xNn-XEAgIkrUk5xDg" },
     { title: "跑团玩家调研：热情迸发，期待相遇", link: "https://mp.weixin.qq.com/s/Q1rTZUjEtG5HzVSt6o1MRQ" },
