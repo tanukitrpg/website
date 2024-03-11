@@ -29,6 +29,20 @@
 		</style>
 		<script src="js/jquery-3.7.1.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
+		
+		<script>
+		document.addEventListener("DOMContentLoaded", function() {
+ 		 // 获取要点击的div元素
+ 		 var myDiv = document.getElementById("myDiv");
+  
+ 		 // 添加点击事件
+  		myDiv.addEventListener("click", function() {
+   		 // 在这里设置要跳转的URL
+		window.location.href = "https://github.com/tanukitrpg/modules/tree/main/%E5%A6%92%E7%81%AB%E4%B8%AD%E7%83%A7%E4%BA%8C%E6%A0%A1";
+		  });
+		});
+		</script>
+
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
@@ -74,7 +88,7 @@
 		    </div>
 			<div style="width: 80%; height: 300px"></div>
 		  </div>
-		  <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-6 work2">
+		  <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-6 work2" id="myDiv">
 		    <div class="my-3 p-3">
 		      <h2 class="display-5">妒火中烧</h2>
 		      <p class="lead">奉命调查斯卡玛望远镜阵列的毁灭的真相......</p>
