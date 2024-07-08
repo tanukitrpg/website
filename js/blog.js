@@ -1,6 +1,11 @@
 const blogPosts = [
-    { title: "《妒火中烧》即将发行", link: "https://mp.weixin.qq.com/s/hg3vXTSddQpe1avnqwjkvA" },
-    { title: "《妒火中烧》玩家征集", link: "https://mp.weixin.qq.com/s/1Cord1H_bWQYdCeDsVz6JQ" },
+    { title: "【跑团理论】论戏剧性（三）", link: "https://www.gcores.com/articles/184663" },
+    { title: "【跑团理论】论戏剧性（二）", link: "https://www.gcores.com/articles/184662" },
+    { title: "【跑团理论】论戏剧性（一）", link: "https://www.gcores.com/articles/184660" },
+    { title: "【跑团理论】导读Drama Therapy Concepts Theories and Practices", link: "https://www.gcores.com/articles/182773" },
+    { title: "模组杂谈：向姜文学习", link: "https://mp.weixin.qq.com/s?__biz=MzI5MDc4NzQ5MQ==&mid=2247483939&idx=2&sn=465abd5ca50137864b2dcb2c08f7471f&chksm=ec1bdbefdb6c52f973c81e0cba77641000af754fa2ed0adf50d16678cece9cacf5151b2c20e4&token=307524355&lang=zh_CN#rd" },
+    { title: "如何进行故事写作·从英雄之旅开始", link: "https://mp.weixin.qq.com/s?__biz=MzI5MDc4NzQ5MQ==&mid=2247483909&idx=1&sn=e0fa54394bef6cb722c5d9ff93babcb6&chksm=ec1bdbc9db6c52df3a994f2e485512555066e11602dcab097bf88049c5d0146db7d5a9953a69&token=307524355&lang=zh_CN#rd" },
+    { title: "托尔金《论童话故事》", link: "https://www.gcores.com/articles/180109" },
     { title: "洛夫克拉夫特“克苏鲁神话”艺术风格探索（二）", link: "https://mp.weixin.qq.com/s/LJ5lXSV2DrTMXI6IDuU2Og" },
     { title: "洛夫克拉夫特“克苏鲁神话”艺术风格探索（一）", link: "https://mp.weixin.qq.com/s/fDrB9xNn-XEAgIkrUk5xDg" },
     { title: "跑团玩家调研：热情迸发，期待相遇", link: "https://mp.weixin.qq.com/s/Q1rTZUjEtG5HzVSt6o1MRQ" },
